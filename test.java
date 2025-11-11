@@ -6,8 +6,7 @@ class Student {
     int[] credits;
     int[] marks;
     int numSubjects;
-
-    // Method to accept student details
+    
     void acceptDetails() {
         Scanner sc = new Scanner(System.in);
 
@@ -32,7 +31,7 @@ class Student {
         }
     }
 
-    // Method to display student details
+
     void displayDetails() {
         System.out.println("\nStudent Details:");
         System.out.println("USN: " + usn);
@@ -46,7 +45,7 @@ class Student {
         System.out.printf("SGPA: %.2f\n", calculateSGPA());
     }
 
-    // Method to calculate SGPA
+ 
     double calculateSGPA() {
         int totalCredits = 0;
         double weightedGradePoints = 0.0;
@@ -61,7 +60,7 @@ class Student {
         return weightedGradePoints / totalCredits;
     }
 
-    // Helper method to convert marks to grade points
+
     int getGradePoint(int marks) {
         if (marks >= 90) return 10;
         else if (marks >= 80) return 9;
@@ -73,7 +72,7 @@ class Student {
     }
 }
 
-// Main class
+
 public class test {
     public static void main(String[] args) {
         Student student = new Student();
