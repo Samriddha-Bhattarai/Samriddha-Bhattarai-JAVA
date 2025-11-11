@@ -30,7 +30,7 @@ class circle extends shape{
         System.out.println("Area of circle=" + (Math.PI*a*a));
     }
 }
-public class main{
+public class lab4{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         shape s;
@@ -50,4 +50,5 @@ public class main{
         s = new circle(o);
         s.printarea();
     }
+
 }
