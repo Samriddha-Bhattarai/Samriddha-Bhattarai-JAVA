@@ -64,7 +64,7 @@ class Student {
     }
 }
 
-public class SGPA {
+public class lab2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -86,4 +86,5 @@ public class SGPA {
         s1.displayDetails();
         s2.displayDetails();
     }
+
 }
