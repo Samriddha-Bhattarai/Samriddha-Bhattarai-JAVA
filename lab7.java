@@ -35,7 +35,7 @@ class Son extends Father {
 }
 
 
-public class Lab7 {
+public class lab7 {
     public static void main(String[] args) {
         try {
           
@@ -50,3 +50,4 @@ public class Lab7 {
     }
 
 }
+
