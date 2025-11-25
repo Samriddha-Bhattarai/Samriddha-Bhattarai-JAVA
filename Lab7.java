@@ -35,7 +35,7 @@ class Son extends Father {
 }
 
 
-public class exceptions {
+public class Lab7 {
     public static void main(String[] args) {
         try {
           
@@ -48,4 +48,5 @@ public class exceptions {
             System.out.println("Exception caught: " + e.getMessage());
         }
     }
+
 }
