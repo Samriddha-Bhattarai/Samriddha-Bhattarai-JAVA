@@ -24,7 +24,7 @@ class CSEThread extends Thread {
     }
 }
 
-public class TwoThreadsDemo {
+public class lab8 {
     public static void main(String[] args) {
         CollegeThread t1 = new CollegeThread();
         CSEThread t2 = new CSEThread();
@@ -33,3 +33,4 @@ public class TwoThreadsDemo {
         t2.start();
     }
 }
+
